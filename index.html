@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام Webbing Agency</title>
+    <style>
+        /* ألوان الهوية */
+        :root {
+            --primary-color: #1a1a2e; /* لون غامق */
+            --secondary-color: #e94560; /* لون زاهي */
+            --accent-color: #0f3460; /* لون ثانوي */
+            --background-color: #f5f5f5; /* خلفية فاتحة */
+            --text-color: #333;
+            --text-light-color: #fff;
+        }
+
+        /* إعدادات الصفحة */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            padding: 20px;
+            text-align: center;
+            color: var(--text-light-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        section {
+            padding: 40px 20px;
+            margin: 20px;
+            background-color: var(--text-light-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        section ul {
+            margin-top: 10px;
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            background-color: var(--accent-color);
+            padding: 10px;
+            text-align: center;
+            color: var(--text-light-color);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        /* تصميم استجابي */
+        @media (min-width: 768px) {
+            section {
+                width: 60%;
+                margin: 20px auto;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            section {
+                width: 40%;
+            }
+        }
+
+        /* أزرار جميلة */
+        .cta-button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: var(--text-light-color);
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: var(--accent-color);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>نظام إدارة Webbing Agency</h1>
+        <p>أحدث حلول إدارة الخدمات والتطوير!</p>
+    </header>
+
+    <section>
+        <h2>حسابات العملاء</h2>
+        <p>كل عميل هيقدر يدخل على حساب خاص بيه عشان يشوف الخدمات اللي قدمتها الشركة ويطلب تعديلات أو تحديثات بسهولة.</p>
+        <ul>
+            <li>استعراض الخدمات السابقة.</li>
+            <li>طلب التعديلات على المشاريع.</li>
+            <li>التواصل المباشر مع فريق الدعم.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>النظام المالي</h2>
+        <p>إدارة الفواتير والمدفوعات لكل عميل بشكل بسيط وسهل من خلال النظام.</p>
+        <ul>
+            <li>إدارة الفواتير وإنشائها.</li>
+            <li>متابعة المدفوعات الشهرية.</li>
+            <li>إشعارات بالمدفوعات المستحقة.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>نظام المطورين</h2>
+        <p>لوحة تحكم لكل مطور لمتابعة المشاريع واستلام طلبات التعديل من العملاء.</p>
+        <ul>
+            <li>عرض قائمة المشاريع لكل مطور.</li>
+            <li>تنبيهات عند استلام طلب تعديل.</li>
+            <li>إشعارات للعملاء عند إتمام التعديلات.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Super Admin</h2>
+        <p>دور المدير العام اللي يقدر يشوف كل شيء ويدير النظام بالكامل.</p>
+        <ul>
+            <li>إشراف كامل على الحسابات.</li>
+            <li>إدارة الطلبات والرسائل.</li>
+            <li>تقارير الأداء لجميع الفروع.</li>
+        </ul>
+        <a href="#" class="cta-button">تعرف على المزيد</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Webbing Agency - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
